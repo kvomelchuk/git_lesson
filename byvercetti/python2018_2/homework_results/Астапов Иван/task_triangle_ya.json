@@ -1,0 +1,25 @@
+{
+    "error": {
+        "task": "task_triangle_ya",
+        "test_name": "py.test_task_triangle_ya.TriangleYandexTaskTestCase.test_10",
+        "test_description": "Tests the main functional",
+        "error_type": "fail",
+        "error_message": "'\u0442\u043e\u0447\u043a\u0430 A [x y]\\n2 7\\n\u0422\u043e\u0447\u043a\u0430 B [x y]\\n6 1\\n\u0422[75 chars]nyes' != 'yes'\n- \u0442\u043e\u0447\u043a\u0430 A [x y]\n- 2 7\n- \u0422\u043e\u0447\u043a\u0430 B [x y]\n- 6 1\n- \u0422\u043e\u0447\u043a\u0430 C [x y]\n- 12 5\n- 7.211102550927978 7.211102550927978 10.198039027185569\n  yes",
+        "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.6/site-packages/hamster_tester/unit_test/decorators.py\", line 64, in wrapper\n    func(self, dataset, result)\n  File \"/data/tests/py/test_task_triangle_ya.py\", line 37, in test_10\n    self.assertEqual(stdout, result)\nAssertionError: '\u0442\u043e\u0447\u043a\u0430 A [x y]\\n2 7\\n\u0422\u043e\u0447\u043a\u0430 B [x y]\\n6 1\\n\u0422[75 chars]nyes' != 'yes'\n- \u0442\u043e\u0447\u043a\u0430 A [x y]\n- 2 7\n- \u0422\u043e\u0447\u043a\u0430 B [x y]\n- 6 1\n- \u0422\u043e\u0447\u043a\u0430 C [x y]\n- 12 5\n- 7.211102550927978 7.211102550927978 10.198039027185569\n  yes\n",
+        "context": {
+            "expected_result": "yes",
+            "dataset_number": 1,
+            "dataset": {
+                "dataset": [
+                    2,
+                    7,
+                    6,
+                    1,
+                    12,
+                    5
+                ]
+            },
+            "result": "\u0442\u043e\u0447\u043a\u0430 A [x y]\n2 7\n\u0422\u043e\u0447\u043a\u0430 B [x y]\n6 1\n\u0422\u043e\u0447\u043a\u0430 C [x y]\n12 5\n7.211102550927978 7.211102550927978 10.198039027185569\nyes"
+        }
+    }
+}

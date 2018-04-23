@@ -1,0 +1,42 @@
+{
+    "error": {
+        "task": "task_bubble_sort",
+        "test_name": "py.test_task_bubble_sort.BubbleSortTestCase.test_10",
+        "test_description": "Tests the main functional",
+        "error_type": "fail",
+        "error_message": "Lists differ: [8, 14, 3, 1, 89, 2, 45] != [1, 2, 3, 8, 14, 45, 89]\n\nFirst differing element 0:\n8\n1\n\n- [8, 14, 3, 1, 89, 2, 45]\n+ [1, 2, 3, 8, 14, 45, 89]",
+        "traceback": "Traceback (most recent call last):\n  File \"/python_packages/hamster_core/unit_test/decorators.py\", line 64, in wrapper\n    func(self, dataset, result)\n  File \"/data/tests/py/test_task_bubble_sort.py\", line 43, in test_10\n    self.assertEqual(self.answer, result)\nAssertionError: Lists differ: [8, 14, 3, 1, 89, 2, 45] != [1, 2, 3, 8, 14, 45, 89]\n\nFirst differing element 0:\n8\n1\n\n- [8, 14, 3, 1, 89, 2, 45]\n+ [1, 2, 3, 8, 14, 45, 89]\n",
+        "context": {
+            "expected_result": [
+                1,
+                2,
+                3,
+                8,
+                14,
+                45,
+                89
+            ],
+            "dataset_number": 1,
+            "dataset": {
+                "dataset": [
+                    8,
+                    14,
+                    3,
+                    1,
+                    89,
+                    2,
+                    45
+                ]
+            },
+            "result": [
+                8,
+                14,
+                3,
+                1,
+                89,
+                2,
+                45
+            ]
+        }
+    }
+}

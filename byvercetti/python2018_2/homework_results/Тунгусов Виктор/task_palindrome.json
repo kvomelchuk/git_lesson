@@ -1,0 +1,18 @@
+{
+    "error": {
+        "task": "task_palindrome",
+        "test_name": "py.test_task_palindrome.PalindromeTestCase.test_10",
+        "test_description": "Tests the main functional",
+        "error_type": "fail",
+        "error_message": "False != True",
+        "traceback": "Traceback (most recent call last):\n  File \"/python_packages/hamster_core/unit_test/decorators.py\", line 64, in wrapper\n    func(self, dataset, result)\n  File \"/data/tests/py/test_task_palindrome.py\", line 42, in test_10\n    self.assertEqual(self.answer, result)\nAssertionError: False != True\n",
+        "context": {
+            "expected_result": true,
+            "dataset_number": 3,
+            "dataset": {
+                "dataset": "\u0421\u0435\u043b \u0432 \u043e\u0437\u0435\u0440\u0435 \u0431\u0435\u0440\u0435\u0437\u043e\u0432 \u043b\u0435\u0441"
+            },
+            "result": null
+        }
+    }
+}

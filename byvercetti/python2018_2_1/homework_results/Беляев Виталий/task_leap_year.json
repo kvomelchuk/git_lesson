@@ -5,7 +5,7 @@
         "test_description": "Tests the main functional",
         "error_type": "fail",
         "error_message": "'Enter year:>>> Yes' != 'yes'\n- Enter year:>>> Yes\n+ yes\n",
-        "traceback": "Traceback (most recent call last):\n  File \"/python_packages/hamster_core/unit_test/decorators.py\", line 64, in wrapper\n    func(self, dataset, result)\n  File \"/data/tests/py/test_task_leap_year.py\", line 39, in test_10\n    self.assertEqual(stdout, result)\nAssertionError: 'Enter year:>>> Yes' != 'yes'\n- Enter year:>>> Yes\n+ yes\n\n",
+        "traceback": "Traceback (most recent call last):\n  File \"/usr/local/lib/python3.6/site-packages/hamster_tester/unit_test/decorators.py\", line 64, in wrapper\n    func(self, dataset, result)\n  File \"/data/tests/py/test_task_leap_year.py\", line 39, in test_10\n    self.assertEqual(stdout, result)\nAssertionError: 'Enter year:>>> Yes' != 'yes'\n- Enter year:>>> Yes\n+ yes\n\n",
         "context": {
             "expected_result": "yes",
             "dataset_number": 1,

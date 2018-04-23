@@ -1,0 +1,23 @@
+{
+    "success": {
+        "successful": [
+            {
+                "task": "task_palindrome",
+                "test_name": "py.test_task_palindrome.PalindromeTestCase.test_01",
+                "test_description": "Tests the module with task exist"
+            },
+            {
+                "task": "task_palindrome",
+                "test_name": "py.test_task_palindrome.PalindromeTestCase.test_02",
+                "test_description": "Test function exists"
+            },
+            {
+                "task": "task_palindrome",
+                "test_name": "py.test_task_palindrome.PalindromeTestCase.test_10",
+                "test_description": "Tests the main functional"
+            }
+        ],
+        "skipped": [],
+        "expected_failures": []
+    }
+}

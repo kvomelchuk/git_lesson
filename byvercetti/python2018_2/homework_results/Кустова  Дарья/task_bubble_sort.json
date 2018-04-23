@@ -1,0 +1,11 @@
+{
+    "error": {
+        "task": "task_bubble_sort",
+        "test_name": "py.test_task_bubble_sort.BubbleSortTestCase.test_01",
+        "test_description": "Tests the module with task exist",
+        "error_type": "error",
+        "error_message": "bubble_sort() takes 1 positional argument but 6 were given",
+        "traceback": "Traceback (most recent call last):\n  File \"/python_packages/hamster_core/unit_test/case.py\", line 205, in test_01\n    self.assertTrue(self.get_task_module(), msg=msg)\n  File \"/python_packages/hamster_core/unit_test/case.py\", line 200, in get_task_module\n    return load_module(self.task_name)\n  File \"/python_packages/hamster_core/unit_test/util.py\", line 75, in load_module\n    return importlib.import_module(name)\n  File \"/usr/local/lib/python3.6/importlib/__init__.py\", line 126, in import_module\n    return _bootstrap._gcd_import(name[level:], package, level)\n  File \"<frozen importlib._bootstrap>\", line 994, in _gcd_import\n  File \"<frozen importlib._bootstrap>\", line 971, in _find_and_load\n  File \"<frozen importlib._bootstrap>\", line 955, in _find_and_load_unlocked\n  File \"<frozen importlib._bootstrap>\", line 665, in _load_unlocked\n  File \"<frozen importlib._bootstrap_external>\", line 678, in exec_module\n  File \"<frozen importlib._bootstrap>\", line 219, in _call_with_frames_removed\n  File \"/app/task_bubble_sort.py\", line 11, in <module>\n    lst = bubble_sort(1, 78, 98, 4, 2, 67)\nTypeError: bubble_sort() takes 1 positional argument but 6 were given\n",
+        "context": {}
+    }
+}

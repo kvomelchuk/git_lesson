@@ -2,8 +2,8 @@
     "success": {
         "successful": [
             {
-                "task": "task_triangle_ya",
-                "test_name": "py.test_task_triangle_ya.TriangleYandexTaskTestCase.test_10",
+                "task": "task_leap_year",
+                "test_name": "py.test_task_leap_year.LeapYearTaskTestCase.test_10",
                 "test_description": "Tests the main functional"
             }
         ],
